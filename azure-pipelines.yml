@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: hafiz-self-hosted-agent
+  name: hafiz-self-hosted-agent
 
 steps:
 - task: Maven@3
